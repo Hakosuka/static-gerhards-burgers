@@ -1,0 +1,56 @@
+body {
+	font-family: Arial;
+	background-color: #e6af5d;
+}
+header {
+	background-color: #e6af5d; /*Code name "Burger bun"*/
+	color: #ffffff;
+	text-align: center;
+}
+#top-bun {
+	background-color: #e6af5d;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+}
+
+#sides {
+	background-color: #99D591;
+	position: relative;
+	display: flex;
+}
+
+#main_courses {
+	background-color: #3f1800;
+	color: #ffffff;
+	position: relative;
+	display: flex;
+}
+#main_banner {
+	background-color: #3f1800;
+	color: #ffffff;
+	position: relative;
+	display: flex;
+	text-align: center;
+}
+#drinks_desserts {
+	background-color: #e6af5d; 
+	color: #ffffff;	
+	position: relative;
+	display: flex;
+}
+div {
+	border-color: #99743d;
+	border-width: 5px;
+	margin-left: 5px;
+}
+.banner {
+	text-align: center;
+	margin-left: 5px;
+}
+.menu_items {
+	flex: 0 0 65%;
+}
+.menu_prices {
+	flex: 1;
+}
